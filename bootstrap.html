@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curriculum Vitae</title>
+  <link rel="icon" type="image/x-icon" href="https://c7.alamy.com/compes/2gjwe74/letra-alfabetica-en-la-palabra-cv-abreviatura-del-curriculum-vitae-sobre-el-viejo-color-rojo-plato-de-madera-fondo-2gjwe74.jpg">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+  <style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: 280px auto 240px;
+    gap: 20px;
+    padding: 10px;
+    margin: 20px;
+  }
+  .grid-container > div {
+   text-align: left;
+  padding: 20px;
+  margin: 10px;
+  }
+
+  .header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Curriculum vitae</h1>
+</div>
+
+<div class="grid-container">
+  <div>
+    <form action="">
+      <p>
+      <label for="Nombre"> <span>Nombre</span> <abbr title="Este campo es obligatorio" aria-label="required"></abbr></label>
+      <input type="text" name="name" placeholder="Ingrese su nombre" value="Soham">
+    </p>
+ 
+      <p>
+      <label for="Apellido"> Apellido</label>
+      <input type="text" name="lname" placeholder="Ingrese su apellido" value="Taylor">
+  </p>
+      <p>
+      <label for="E-mail"> e-mail </label>
+      <input type="email" name="email" placeholder="Ingrese su e-mail" value="soham.taylor@example.com"> 
+  </p>
+      <p>
+      <label for="Dirección"> Dirección </label>
+      <input type="Dirección" name="dirección" placeholder="Ingrese su dirección" value="9984 W Pecan St"> 
+  </p>
+      <p>
+      <label for="Teléfono"> Número de teléfono</label>
+      <input type="tel" name="teléfono" placeholder="Ingrese número de teléfono" value="(276) 265-0994r">
+  </p>
+</form>
+  </div>
+  <div class="Descripcion">
+    <h6 id="Expericencia-laboral">Experiencia Laboral</h6>
+    <ul>
+    <li>2005-2006 Profesor adjunto de la materia “Análisis social latinoamericano”, impartida por el profesor Raúl Sevilla en los semestres 2005-2 y 2006-1 en la Facultad de Ciencias Políticas y Sociales de la Universidad Nacional Autónoma de México.</li>
+    <li>-2007-2009 Investigador en el Instituto de Investigaciones Sociales de la Universidad Nacional Autónoma de México, bajo la supervisión del Dr. Huberto Anaya.</li>
+    <li>-2010-2011 Profesor de asignatura en la Escuela Nacional de Antropología e Historia.</li>
+    <li>2011-presente Investigador de medio tiempo en el Instituto de Investigaciones Antropológicas de la Universidad Nacional Autónoma de México.</li>
+</ul>
+
+    <h6>Formación académica</h6>
+    <ul>
+    <li>-2001-2004 Escuela Nacional Preparatoria No. 3.</li>
+    <li>-2004-2009 Licenciatura en Sociología, Facultad de Ciencias Políticas y Sociales, Universidad Nacional Autónoma de México.</li>
+
+</ul>
+
+    <h6>Idiomas</h6>
+    <ul>
+        <li>Inglés</li>
+        <li>Portugués</li>
+</ul>
+
+    <h6>Aptitudes</h6>
+<ul>
+    <li>Trabajo en equipo</li>
+    <li>inicativa</li>
+    <li>Resolución de problemas</li>
+    <li>Comunicación efectiva</li>
+</ul>
+  </div>
+
+  <div>
+    <img src="https://randomuser.me/api/portraits/men/18.jpg" alt="Imagen del postulante">
+  </div>  
+</div>
+
+<div class="footer">
+  Primer proyecto Ticmas, por Jesica Quero
+</div>
+
+</body>
+</html>

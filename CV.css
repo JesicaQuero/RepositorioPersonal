@@ -1,0 +1,100 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+    
+h1{
+    text-align: center;
+    border: 3px solid #20587e;
+    padding: 10px 50px;
+    margin: 40px 40px 10px 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color:#266a97;
+    font-size: 30px;
+    letter-spacing: 20px;
+    word-spacing: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+fieldset{
+    overflow: auto;
+    margin: 90px 20px;
+    padding: 30px 10px;
+    background-color: #b9c4ca;
+    border: 2px solid #20587e;
+    float: left;
+    width: 18%;
+    text-align: left;
+     
+      }
+      
+      fieldset a {
+        padding: 8px 2px;
+        margin-top: 70px;
+        display: block;
+        width: 100%;
+      }
+
+
+label {
+     color: rgb(7, 6, 83); 
+     margin: 10px;      
+}
+
+input {
+    color: rgb(18, 17, 112);
+    background-color: #ebebeb;
+    margin: 10px; 
+}
+
+img{
+    width: 150px;
+    margin: 5px 40px 5px 10px;
+    border: 2px solid #20587e;
+    float: right;
+    width: 12%; 
+   
+}
+
+section{
+    margin: 90px 20px;
+    padding: 30px 10px;
+    border: 2px;
+    display: block;
+    width: 100%;
+    float: left;
+    width: 50%;
+    text-align: justify;
+  
+}
+
+h6 {
+    color: rgb(223, 47, 16);
+    margin: 1px 40px;
+    padding: 1px;
+}
+
+#Expericencia-laboral {
+    color: rgb(196, 51, 26);
+   
+}
+
+ul {
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+li{
+    color: #05263d;
+    margin: 10px;
+    padding: 10px;
+}
+
